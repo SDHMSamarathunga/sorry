@@ -114,13 +114,6 @@ export default function App() {
         </div>
       )}
 
-      {/* Footer */}
-      <footer className="z-10 py-4 text-center text-xs text-slate-400 border-t border-slate-900 bg-slate-950/60 backdrop-blur-md">
-        <p>
-          Made with ❤️ for {partnerName || 'මගේ මැණික'} | React & Tailwind CSS
-        </p>
-      </footer>
-
       {/* Name Customization Modal */}
       <NameModal
         isOpen={isNameModalOpen}
